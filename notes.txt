@@ -1,0 +1,13 @@
+Match:
+https://api.afl.com.au/cfs/afl/matchItem/CD_M20210141805
+
+Heatmap api
+https://api.afl.com.au/cfs/afl/coach/match/CD_M20210141804/playerSeasonHeatmaps
+
+
+
+-----
+PLAN:
+
+For each player:
+    I will have a many to many to a PlayerStats (representing a game)
